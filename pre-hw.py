@@ -31,9 +31,9 @@ with open("phonebook_raw.csv", encoding='utf8') as f:
     # Удаляем лишние значения:
 
     def del_cav():
-        for con in contacts_list:
+        for sign in contacts_list:
             while '' in con:
-                con.remove('')
+                sign.remove('')
     # Применяем изменения:
 
     name_list()
